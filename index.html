@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --Light-gray: hsl(212, 45%, 89%);
+      --Grayish-blue: hsl(220, 15%, 55%);
+      --Dark-blue: hsl(218, 44%, 22%);
+    }
+
+    * {
+
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+
+
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--Light-gray);
+    }
+
+    .card {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 15px 15px 15px 15px;
+      background-color: var(--white);
+      border-radius: 20px;
+      box-shadow: 1px 1px 10px 0px grey;
+
+
+    }
+
+
+    p,
+    h2 {
+      text-align: center;
+      margin: 20px 0px 0px 0px;
+    }
+
+    img {
+      align-self: center;
+      width: 288px;
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--Grayish-blue);
+      padding-bottom: 22px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--Dark-blue);
+    }
+
+    .attribution {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="images/image-qr-code.png" alt="qr code">
+      <h2>Improve your front-end <br> skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/lahbouchdev">Abdelhamid Lahbouch</a>.
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
